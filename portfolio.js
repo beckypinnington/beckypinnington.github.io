@@ -50,6 +50,7 @@ async function loadPortfolio() {
                             </a>
                         </h3>
                         <p>${row.Description || ''}</p>
+                        <hr class="uk-divider-small">
                     `;
                     
                     container.appendChild(portfolioItem);
