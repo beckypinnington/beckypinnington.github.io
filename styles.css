@@ -14,19 +14,24 @@
 h1 {
     text-transform: uppercase;
     font-family: poppins;
-    font-weight: bold;
+    font-weight: 700;
+    color: #003049;
 }
 
 h2 {
     text-transform: uppercase;
     text-align: center;
     font-family: poppins;
+    font-weight: 600;
+    color: #003049;
 }
 
 h4 {
     text-transform: uppercase;
     text-align: center;
     font-family: poppins;
+    font-weight: 600;
+    color: #003049;
 }
 
 p {
@@ -39,6 +44,13 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+hr {
+    border-color: #669BBC;
+    margin-top: 0px;
 }
 
 /* bio section */
@@ -49,7 +61,13 @@ p {
 
 /* social buttons */
 
+.uk-iconnav a {
+    color:#003049;
+}
 
+.uk-iconnav a:hover {
+    color: #C1121F;
+}
 
 /* work appeared in */
 
@@ -101,4 +119,3 @@ p {
     text-transform: uppercase;
     font-size: 15px;
 }
-
