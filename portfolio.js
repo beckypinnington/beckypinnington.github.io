@@ -35,7 +35,7 @@ async function loadPortfolio() {
                     }
                     
                     const portfolioItem = document.createElement('div');
-                    portfolioItem.className = 'portfolio-item uk-margin-auto';
+                    portfolioItem.className = 'uk-width-3-4@m uk-margin-auto';
                     
                     portfolioItem.innerHTML = `
                         <div class="uk-cover-container clip">
