@@ -101,7 +101,7 @@ p {
 .date {
     padding-top: 0px;
     padding-bottom: 0px;
-    line-height: 0;
+    line-height: 1;
     text-transform: uppercase;
     font-size: 15px;
 }
