@@ -1,0 +1,108 @@
+/* key colours
+
+#780000: molten lava
+#C1121F: brick red 
+#FEF8EC: floral white
+#003049: deep space blue
+#669BBC: steel blue
+#B8D1E0: pale sky
+
+*/
+
+/* text formatting */
+
+h1 {
+    text-transform: uppercase;
+    font-family: poppins;
+    font-weight: bold;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: poppins;
+}
+
+h4 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: poppins;
+}
+
+p {
+    font-family: lato;
+}
+
+/* header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+/* bio section */
+
+.headshot {
+    max-height: 350px;
+}
+
+/* social buttons */
+
+
+
+/* work appeared in */
+
+.logo {
+    min-height: 75px;
+}
+
+.works {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #B8D1E0;
+}
+
+/* portfolio */
+
+.portfolio-item {
+    max-width: 70%;
+}
+
+.clip {
+    max-height: 40%;
+    min-height: 300px;
+    max-height: 500px; /* this needs fixing */
+    box-sizing: border-box;
+}
+
+.headline {
+    line-height: 1;
+    font-family: poppins;
+}
+
+.headline a {
+    color: #669BBC;
+}
+
+.portfolio-item:has(.clip:hover) .clip,
+.portfolio-item:has(.headline:hover) .clip {
+    border: 10px solid #C1121F;
+}
+
+.portfolio-item:has(.clip:hover) .headline a,
+.portfolio-item:has(.headline:hover) .headline a {
+    color: #C1121F;
+    text-decoration: none;
+}
+
+.date {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 0;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+

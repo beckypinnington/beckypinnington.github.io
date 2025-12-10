@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title></title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <!-- UIkit CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.25.1/dist/css/uikit.min.css" />
+        <!-- UIkit JS -->
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.25.1/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.25.1/dist/js/uikit-icons.min.js"></script>
+
+        <!-- Additional styles -->
+        <link rel = "stylesheet" href = "styles.css" />
+        <!-- Portfolio JavaScript element -->
+        <script src = "portfolio.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+
+        <!-- Poppins embed -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <!-- Lato embed -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   
+    </head>
+
+    <body>
+
+        <div class="uk-container">
+
+            <div class="header">
+
+                <h1>Becky Pinnington</h1>
+
+                <ul class = "uk-iconnav">
+
+                    <li><a href="#" class="uk-icon-link uk-margin-small-right" uk-icon="mail"></a></li>
+                    <li><a href="#" class="uk-icon-link uk-margin-small-right" uk-icon="bluesky"></a></li>
+                    <li><a href="#" class="uk-icon-link" uk-icon="linkedin"></a></li>
+
+                </ul>
+
+            </div>
+
+            <hr/>
+
+            <div uk-grid class="uk-grid-small bio">
+                <div class="uk-width-1-2@m">
+                    <img class = "headshot uk-align-center" src="Becky-Pinnington.jpg" />
+                </div>
+                <div class="uk-width-1-2@m">
+                    <p>I'm a freelance data journalist specialising in investigations and creative pop culture projects. Recent work for The Observer includes investigating Reform UK's finances, digging into data quality issues at the Office for National Statistics, and scraping web data to determine the paper's Word of the Year.</p>
+                    <p>Previously I spent five years with the Google News Initiative, where I worked on data-driven stories with journalists from The Economist, The Atlantic, and The Washington Post. My work with Nadieh Bremer on "Why do cats and dogs?" was nominated for an Information Is Beautiful award.</p>
+                    <p>I have also worked as an embedded data journalist with Carwow, where my transport policy FOI investigations secured national media coverage.</p>
+                </div>
+
+            </div>
+        
+        </div>
+
+        <div class = "works">
+
+            <h4>My work has appeared in...</h4>
+
+            <div uk-grid>
+                <div class = "uk-width-1-3@m">
+                    <img class = "logo uk-align-center" src = "logos/observer.svg" />
+                </div>
+                <div class = "uk-width-1-3@m">
+                    <img class = "logo uk-align-center" src = "logos/googlenewsinit.svg" />
+                </div>
+                <div class = "uk-width-1-3@m">
+                    <img class = "logo uk-align-center" src = "logos/aex.svg" />
+                </div>
+                <div class = "uk-width-1-3@m">
+                    <img class = "logo uk-align-center" src = "logos/guardian.svg" />
+                </div>
+                <div class = "uk-width-1-3@m">
+                    <img class = "logo uk-align-center" src = "logos/sun.svg" />
+                </div>
+            </div>
+
+        </div>
+
+        <div class="uk-container">
+            
+            <h2>Portfolio</h2>
+
+            <div id="portfolio-container">
+                <!-- Portfolio items will be inserted here -->
+            </div>
+
+            
+
+
+        </div>
+        
+
+    </body>
+
+</html>
