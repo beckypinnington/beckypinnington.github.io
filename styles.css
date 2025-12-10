@@ -67,10 +67,6 @@ p {
 
 /* portfolio */
 
-.portfolio-item {
-    max-width: 70%;
-}
-
 .clip {
     max-height: 40%;
     min-height: 300px;
