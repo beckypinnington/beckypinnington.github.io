@@ -28,4 +28,4 @@ function loadPortfolio() {
     });
 }
 
-loadPortfolio();
+document.addEventListener("DOMContentLoaded", loadPortfolio);
