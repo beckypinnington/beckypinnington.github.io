@@ -1,0 +1,110 @@
+body {
+    background-color: #E5E1F4;
+}
+
+/* font imports */
+
+@font-face {
+  font-family: 'OffBitDotBold';
+  src: url('./fonts/OffBitTrial-DotBold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OffBitRegular';
+  src: url('./fonts/OffBitTrial-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MelodyBook';
+  src: url('./fonts/BLMelody-Book.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* general text formatting */
+
+h1, h2, h3, h4, h5, p {
+    color: #000000
+}
+
+h1, h2 {
+    font-family: 'OffBitDotBold', sans-serif
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+p, h3, h4, h5 {
+    font-family: 'MelodyBook', sans-serif
+}
+
+/* header and about sections */
+
+h1 {
+    padding-top: 10px
+}
+
+.uk-iconnav a {
+    color: black;
+}
+
+.uk-iconnav a:hover {
+    color: #654CBD
+}
+
+.uk-iconnav svg {
+    width: 25px;
+    height: 25px;
+}
+
+/* portfolio items */
+
+h3 {
+    padding-bottom: 5px;
+    line-height: 1.2;
+}
+
+p.publication-date {
+    font-family: 'OffBitRegular', sans-serif;
+    font-size: 18px;
+}
+
+.portfolio-item p {
+    line-height: 1.2;
+}
+
+.portfolio-item a:hover {
+    text-decoration-color: #654CBD;
+    text-decoration-thickness: 4px;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  margin: 40px 0;
+  background-color: black;
+}
+
+/* to top */
+
+.footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.uk-totop {
+    color: #2D2159
+}
+
+.uk-totop:hover {
+    color: #654CBD
+}
